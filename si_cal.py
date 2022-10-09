@@ -3,7 +3,7 @@ ef simple_interest(p,t,r):
     print('Duration :', t)
     print('Rate of interest :',r)
      
-    si = (p * t * r)/100
+    si = (p * r * t)/100
      
     print('Calculate Simple Interest is :', si)
     return si
